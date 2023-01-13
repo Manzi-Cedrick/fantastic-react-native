@@ -60,13 +60,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#E8EAED',
   },
   sectionHeader: {
-    paddingTop: 10 * 6,
+    paddingTop: 10 * 3,
     paddingHorizontal: 10 * 2,
   },
   sectionText: {
     color: 'dodgerblue',
     fontSize: 20,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   allItems: {
     marginTop: 10 * 2,
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   },
   addTasks: {
     position: 'absolute',
-    bottom: 60,
+    bottom: 20,
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
